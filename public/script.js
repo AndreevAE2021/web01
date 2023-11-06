@@ -4,7 +4,6 @@ const subButton = document.querySelector("#Submit_input");
 subButton.disabled = true;
 let nameResultOfCheck = {result: false};
 let passResultOfCheck = {result: false};
-
 function inputValidator(inputItem, valueLength, errorMessage, resultCheck){
     let value;
     inputItem.addEventListener("blur", () => {
@@ -28,7 +27,6 @@ function inputValidator(inputItem, valueLength, errorMessage, resultCheck){
         }
     });
 }
-
 function sumOfCheck(nameResult, passResult){
     return (nameResult && passResult);
 }
@@ -46,7 +44,6 @@ function buttonActivator(nameResultOfCheck, passResultOfCheck){
             subButton.disabled = true;
             return true;
         }
-
     }
     subButton.addEventListener("mouseover", ()=> {
         setupErrorState();})
@@ -55,7 +52,6 @@ function buttonActivator(nameResultOfCheck, passResultOfCheck){
     passInput.addEventListener("blur", () => {
         setupErrorState();})
 }
-
 inputValidator(nameInput, 4,
     "Username length must be more then 4 character", nameResultOfCheck);
 inputValidator(passInput, 6,
@@ -68,13 +64,11 @@ styleButton.addEventListener("click", () => {
     if (styleState === 1) {
         document.body.style.background = 'gray';
         styleButton.textContent = "Day";
-        styleButton.color = 'white';
         styleState = 2;
     }
     else {
         document.body.style.background = 'white';
         styleButton.textContent = "Night";
-        styleButton.color = 'gray';
         styleState = 1;
 
     }

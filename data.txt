@@ -11,3 +11,7 @@
 {"username":"anrei","password":"657567","Usertype":"admin"}
 {"username":"anrei","password":"657567","Usertype":"admin"}
 {"username":"anrei","password":"werw4ew","Usertype":"moderator"}
+{"username":"Ivanmf","password":"5645647","Usertype":"Moderator"}
+{"username":"6456456","password":"4564564","Usertype":"User"}
+{"username":"tyuty","password":"yutuuy","Usertype":"Moderator"}
+{"username":"tyuty","password":"yutuuy","Usertype":"Admin"}
