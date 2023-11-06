@@ -1,0 +1,13 @@
+{"username":"IvanDornYT","password":"1234567","Usertype":"admin"}
+{"username":"IvanDornYT2","password":"123456734","Usertype":"moderator"}
+{"username":"IvanDornYT23","password":"1234567344","Usertype":"user"}
+{"username":"Iva","password":"1312546","Usertype":"user"}
+{"username":"Ivanm","password":"1312546","Usertype":"admin"}
+{"username":"qwASa","password":"`wASassa","Usertype":"admin"}
+
+{"username":"qwASa","password":"`wASassa","Usertype":"admin"}
+{"username":"andrei2","password":"5675676","Usertype":"admin"}
+{"username":"andrei2","password":"5675676","Usertype":"admin"}
+{"username":"anrei","password":"657567","Usertype":"admin"}
+{"username":"anrei","password":"657567","Usertype":"admin"}
+{"username":"anrei","password":"werw4ew","Usertype":"moderator"}
