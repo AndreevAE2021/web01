@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web01Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="Day/Night_container" >
+    <button id="Day/Night" class="day-night-button">Day</button>
+</div>
+<div class="container">
+<h1>Registration form</h1>
+<form action="/reg-data" method="post">
+    <div id= "name_input_container" class="form_input">
+        <label for="Name_input">Enter your name:</label>
+        <input name="username" type="text" id="Name_input" placeholder="Name(min 4 letters/digits)">
+    </div>
+    <div id= "pass_input_container" class="form_input">
+        <label for="Password_input">Enter your password:</label>
+        <input name="password" type="password" id="Password_input" placeholder="Password(min 6 letters/digits)">
+    </div>
+    <div class="form_input">
+        <label for="Select_input">Choose usertype:</label>
+        <select name="Usertype" id="Select_input">
+            <option value="Admin">Admin</option>
+            <option value="Moderator">Moderator</option>
+            <option value="User">User</option>
+        </select>
+    </div>
+    <button id="Submit_input" type="submit">Submit Form</button>
+
+
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
